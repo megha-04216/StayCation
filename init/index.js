@@ -69,7 +69,7 @@ const initGeoDB = async () => {
   await Listing.deleteMany({});
   console.log("🗑️ Old listings deleted");
 
-  const ownerId = "687343ef0c286ccf217784a9";
+  const ownerId = "68769303bc12a0bfb64388da";
   const listingsWithGeo = [];
 
  for (let listing of initData.data) {
