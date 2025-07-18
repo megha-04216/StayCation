@@ -24,11 +24,11 @@ module.exports.index = async (req, res) => {
     }
 
     const listings = await Listing.find(query);
-    res.render("listings/index", { listings, category });
+    res.render("listings/index.ejs", { listings, category });
   } catch (e) {
     console.log(e);
     req.flash("error", "Cannot load listings at the moment");
-    res.redirect("/");
+    res.redirect("/listings");
   }
 };
 
@@ -68,7 +68,7 @@ const listing = await Listing.findById(id)
 })
 .populate("owner"); 
 if (!listing){
-  req.flash("error", "Listing you requested for do not exist")
+  // req.flash("error", "Listing you requested for do not exist")
   return res.redirect("/listings");
 }
 console.log(listing);
