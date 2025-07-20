@@ -87,6 +87,5 @@ Feel free to use, modify, and distribute as per the license terms.
 
 **Megha Goswami**   
 💼 GitHub: [@megha-goswami](https://github.com/megha-04216)  
-🌐 LinkedIn: [linkedin.com/in/megha-goswami](https://www.linkedin.com/in/megha-goswami2416/)  
 🚀 Deployed Project: [StayCation](https://staycation-iwg0.onrender.com/)
 
